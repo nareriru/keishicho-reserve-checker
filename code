@@ -33,6 +33,6 @@ jobs:
 
       - name: Run checker
         env:
-          SLACK_WEBHOOK_URL: ${{ https://api.slack.com/apps/A0A7ECJ8XNC?created=1 }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
           python check.py
