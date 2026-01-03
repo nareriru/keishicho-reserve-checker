@@ -1,1 +1,0 @@
-# keishicho-reserve-checker
